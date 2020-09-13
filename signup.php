@@ -8,8 +8,11 @@
 	<form action="includes/signup.inc.php" method="post">
 		<input type="text" name="username" placeholder="username">
 		<input type="text" name="mail" placeholder="email">
+		<input type="radio" name="status" value="buyer">buyer
+		<input type="radio" name="status" value="seller">seller
 		<input type="password" name="pwd" placeholder="password">
-		<input type="password" name="pwd" placeholder="password">
+		<input type="password" name="pwd-rep" placeholder="password pwd-rep">
+		<button type="submit" name="signup-submit">signup</button>
 	</form>
 </main>
 
